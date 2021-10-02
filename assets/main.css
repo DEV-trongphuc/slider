@@ -32,12 +32,12 @@ input {
 .slider__imgs {
   width: 80rem;
   height: 50rem;
-
   border-radius: 2.2rem;
   display: grid;
   grid-auto-flow: column;
   grid-auto-columns: 100%;
   overflow: hidden;
+  box-shadow: 0 0 15px rgba(131, 131, 131, 0.523);
 }
 .img-item {
   overflow-x: auto;
@@ -45,6 +45,7 @@ input {
   width: 100%;
   height: 100%;
   transition: 0.5s ease-out;
+  animation: autoSlide 20s infinite;
 }
 .slider__dots {
   position: absolute;
@@ -73,7 +74,7 @@ input {
   width: 2rem;
   height: 3rem;
   border-radius: 50%;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.088);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.222);
 }
 .dot-item {
   width: 4rem;
