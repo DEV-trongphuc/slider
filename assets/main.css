@@ -76,7 +76,8 @@ input {
   align-items: center;
 sS}
 .slider__buttons,
-.icon__button {
+.icon__button,
+.button {
   width: 85rem;
   height: 10rem;
   display: flex;
@@ -84,9 +85,12 @@ sS}
   align-items: center;
   z-index: 1;
 }
+.slider__btn1 {
+  display: none;
+}
 .slider__btn,
-.icon {
-  font-size: 2.4rem;
+.icon,
+.slider__btn1 {  font-size: 2.4rem;
   padding: 1.5rem 2rem;
   width: 2rem;
   height: 3rem;
