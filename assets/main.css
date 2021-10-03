@@ -18,7 +18,9 @@ input {
 * {
   font-size: 62.5%;
 }
-.all__slider {
+.all__slider,
+.img-item,
+.icon__button {
   width: 100%;
   height: 100%;
 }
@@ -42,8 +44,6 @@ input {
 .img-item {
   overflow-x: auto;
   object-fit: cover;
-  width: 100%;
-  height: 100%;
   transition: 0.5s ease-out;
   animation: autoSlide 20s infinite;
 }
@@ -58,7 +58,8 @@ input {
   justify-content: space-around;
   align-items: center;
 }
-.slider__buttons {
+.slider__buttons,
+.icon__button {
   width: 85rem;
   height: 10rem;
   display: flex;
@@ -66,13 +67,17 @@ input {
   align-items: center;
   z-index: 1;
 }
-.slider__btn {
+.slider__btn,
+.icon {
   font-size: 2.4rem;
   padding: 1.5rem 2rem;
   width: 2rem;
   height: 3rem;
   border-radius: 50%;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.222);
+}
+.icon {
+  background: #fff;
 }
 .dot-item {
   width: 4rem;
@@ -83,22 +88,5 @@ input {
 }
 .icon__button {
   position: absolute;
-  width: 100%;
-  height: 100%;
-  width: 85rem;
-  height: 10rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   z-index: -1;
-}
-.icon {
-  font-size: 2.4rem;
-  color: rgb(0, 0, 0);
-  background-color: white;
-  padding: 1.5rem 2rem;
-  width: 2rem;
-  height: 3rem;
-  border-radius: 50%;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.222);
 }
