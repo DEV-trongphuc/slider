@@ -45,7 +45,7 @@ input {
   overflow-x: auto;
   object-fit: cover;
   transition: 0.5s ease-out;
-  animation: autoSlide 16s infinite linear;
+  /* animation: autoSlide 16s infinite linear; */
 }
 @keyframes autoSlide {
   0%,22.5% {
