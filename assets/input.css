@@ -1,14 +1,11 @@
 #slider__input2:checked ~ .slider__imgs > .img-item {
   transform: translateX(-100%) !important;
-  animation: unset;
 }
 #slider__input3:checked ~ .slider__imgs > .img-item {
   transform: translateX(-200%) !important;
-  animation: unset;
 }
 #slider__input4:checked ~ .slider__imgs > .img-item {
   transform: translateX(-300%) !important;
-  animation: unset;
 }
 #slider__input1:checked ~ .slider__dots > .dot-item:nth-child(1),
 #slider__input2:checked ~ .slider__dots > .dot-item:nth-child(2),
@@ -16,8 +13,6 @@
 #slider__input4:checked ~ .slider__dots > .dot-item:nth-child(4) {
   background: rgb(199, 199, 199);
 }
-/* 4 nút tròn label cho 4 tấm hình. nằm trong 1 thẻ div. có display FLEX
-khi space-between mà ẩn 2 thằng thì mặc định tụi nó sẽ còn 2 tk tự xa ra */
 #slider__input1:checked ~ .slider__buttons > .slider__btn:nth-child(4),
 #slider__input1:checked ~ .slider__buttons > .slider__btn:nth-child(5),
 #slider__input1:checked ~ .slider__buttons > .slider__btn1:nth-child(6),
@@ -30,9 +25,7 @@ khi space-between mà ẩn 2 thằng thì mặc định tụi nó sẽ còn 2 tk
 #slider__input4:checked ~ .slider__buttons > .slider__btn:nth-child(2) {
   display: none;
 }
-#slider__input4:checked ~ .slider__buttons > .slider__btn1 {
-  display: block;
-}
+#slider__input4:checked ~ .slider__buttons > .slider__btn1,
 #slider__input1:checked ~ .slider__buttons > .slider__btn1 {
   display: block;
 }
