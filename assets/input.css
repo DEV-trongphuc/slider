@@ -1,11 +1,14 @@
 #slider__input2:checked ~ .slider__imgs > .img-item {
-  transform: translateX(-100%);
+  transform: translateX(-100%) !important;
+  animation: unset;
 }
 #slider__input3:checked ~ .slider__imgs > .img-item {
-  transform: translateX(-200%);
+  transform: translateX(-200%) !important;
+  animation: unset;
 }
 #slider__input4:checked ~ .slider__imgs > .img-item {
-  transform: translateX(-300%);
+  transform: translateX(-300%) !important;
+  animation: unset;
 }
 #slider__input1:checked ~ .slider__dots > .dot-item:nth-child(1),
 #slider__input2:checked ~ .slider__dots > .dot-item:nth-child(2),

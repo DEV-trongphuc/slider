@@ -45,7 +45,24 @@ input {
   overflow-x: auto;
   object-fit: cover;
   transition: 0.5s ease-out;
-  animation: autoSlide 20s infinite;
+  animation: autoSlide 16s infinite linear;
+}
+@keyframes autoSlide {
+  0%,22.5% {
+    transform: translateX(0%);
+  }
+  25%,47.5% {
+    transform: translateX(-100%);
+  }
+  50%,72.5% {
+    transform: translateX(-200%);
+  }
+  75%,97.5% {
+    transform: translateX(-300%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
 }
 .slider__dots {
   position: absolute;
@@ -57,7 +74,7 @@ input {
   display: flex;
   justify-content: space-around;
   align-items: center;
-}
+sS}
 .slider__buttons,
 .icon__button {
   width: 85rem;
