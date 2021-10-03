@@ -12,12 +12,14 @@ body {
 label {
   cursor: pointer;
 }
-input {
+input,
+.slider__btnx {
   display: none;
 }
 * {
   font-size: 62.5%;
 }
+/* ______________START_______________ */
 .all__slider,
 .img-item,
 .icon__button {
@@ -56,7 +58,7 @@ input {
   display: flex;
   justify-content: space-around;
   align-items: center;
-sS}
+}
 .slider__buttons,
 .icon__button,
 .button {
@@ -67,12 +69,10 @@ sS}
   align-items: center;
   z-index: 1;
 }
-.slider__btn1 {
-  display: none;
-}
 .slider__btn,
 .icon,
-.slider__btn1 {  font-size: 2.4rem;
+.slider__btn1 {
+  font-size: 2.4rem;
   padding: 1.5rem 2rem;
   width: 2rem;
   height: 3rem;
